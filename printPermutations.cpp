@@ -1,3 +1,12 @@
+/**
+ * Print Permutations
+ * printPermutations.cpp
+ * Purpose: return n permutations of a given string
+ *
+ * @author Tanner Marino
+ * @version 0.1 10/05/16
+ */
+
 #include "csce310hw001pt02.h"
 #include <string>
 #include <vector>

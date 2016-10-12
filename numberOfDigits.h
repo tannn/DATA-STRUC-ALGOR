@@ -1,5 +1,5 @@
-#ifndef CSCE310HW001PT01_H
-#define CSCE310HW001PT01_H
+#ifndef NUMBEROFDIGITS_H
+#define NUMBEROFDIGITS_H
 #include <iostream>
 
 using namespace std;

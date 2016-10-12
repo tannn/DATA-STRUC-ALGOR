@@ -1,4 +1,13 @@
-#include "csce310hw001pt01.h"
+/**
+ * Number of Digits
+ * numberOfDigits.cpp
+ * Purpose: return the number of digits in a number
+ *
+ * @author Tanner Marino
+ * @version 0.1 10/05/16
+ */
+
+#include "numberOfDigits.h"
 #include <iostream>
 
 using namespace std;

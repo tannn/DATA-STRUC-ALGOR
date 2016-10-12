@@ -1,5 +1,5 @@
-#ifndef CSCE310HW001PT02_H
-#define CSCE310HW001PT02_H
+#ifndef PRINTPERMUTATIONS_H
+#define PRINTPERMUTATIONS_H
 
 #include <string>
 #include <vector>
