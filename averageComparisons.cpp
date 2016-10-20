@@ -8,7 +8,7 @@
  */
 
 #include <vector>
-#include "csce310hw002pt03.h"
+#include "averageComparisons.h"
 #include <iostream>
 
 using namespace std;
@@ -21,24 +21,22 @@ using namespace std;
  */
 double averageComparisons( vector<int> number ){
     double comparisons = 0;
-
+    
     for (int i = 0; i < number.size(); i++) {
         int min = 0;
         int max = number.size() - 1;
         int guess = (min + max) / 2;
-
+        
         while (number[guess] != number[i]) {
-
             comparisons++;
-
             if (number[guess] < number[i]) {
                 min = guess + 1;
             } else {
                 max = guess - 1;
             }
+            
             guess = (min + max) / 2;
         }
     }
-
     return comparisons / number.size() + 1;
 }
