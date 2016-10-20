@@ -9,7 +9,7 @@
  */
 
 #include <vector>
-#include "csce310hw002pt01.h"
+#include "ourQuickSelect.h"
 #include <cmath>
 #include <iostream>
 
@@ -24,14 +24,12 @@ using namespace std;
  * number using Quick Select algorithm
  */
 int ourQuickSelect( int i , vector<int> numbers ) {
-
     vector<int> smaller;
     vector<int> larger;
     int count = 0;
     int pivot = numbers[0];
 
     for (int i = 1; i < numbers.size(); i++) {
-
         if (numbers[i] < pivot)
             smaller.push_back(numbers[i]);
         else
